@@ -1,0 +1,120 @@
+/* * {
+    font-family: montserrat;
+}  */
+
+body {
+    /* color: #ff69b4; */
+    /* padding-left: 5%;
+    padding-right: 5%; */
+    background: rgba(255, 170, 214, 0.8);
+} 
+
+/* color background del navbar */
+.bg-rosa {
+    background: #8F8A93;
+    /*rgb(255, 170, 214);
+     #ff69b4;*/
+}
+
+/* navbar danny */
+.navbar-brand {
+    font-family: 'Jost', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'VT323', monospace;
+    font-size: 35px;
+    /*rgba(255, 170, 214, 0.8);*/
+    border-radius: 2px;
+    letter-spacing: 2px;
+}
+
+/* navbar menu */
+.navbar-nav a {
+    font-family: 'Jost', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'VT323', monospace;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.navbar-nav a:hover {
+    /* background: #A7A7A7; */
+    /* border-radius: 5px;
+    border: 1px solid #000; */
+    border-width: auto;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+/* Carrusel de imagenes */
+.carousel-item img {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 700px;
+    fill: brightness(80%);
+}
+
+/* .w-100 {
+    height: 100vh;
+} */
+
+/* titulo principal */
+.titulo-principal {
+    font-family: 'Jost', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'VT323', monospace;
+    text-align: center;
+    font-size: 3em;
+    /* 2em dos veces el tamano x defecto que tiene el navegador en defecto son 15px */
+    margin: 0 0 1em;
+    clear: left;
+    /* text-shadow: 2px 2px 10px whitesmoke;  */
+}
+
+#titulo-contenido {
+    font-family: 'Kosugi Maru', sans-serif;
+    font-size:20px;
+}
+
+#card {
+    font-family: 'Kosugi Maru', sans-serif;
+    /* padding-left:  3%;
+    padding-right: 2%;  */
+}
+
+.card-title {
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 1em;
+}
+
+.card-text {
+    font-size: 15px;
+}
+
+/* aqui empieza el footer */
+/* ul {
+    list-style: none;
+} */
+
+footer {
+    font-family: 'Jost', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'VT323', monospace;
+    font-size: 27px;
+    background-color: #8F8A93;;
+    padding-top: 1em;
+}
+
+/* subrayado del footer menu */
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+}

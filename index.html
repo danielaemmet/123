@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danny-me</title>
+    <!-- Icon -->
+    <link rel="shortcut icon" href="/assets/sakura.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;1,100&family=Roboto:wght@100&family=VT323&display=swap"
+        rel="stylesheet">
+    <!-- font kosugi maru-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Barra de navegacion -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-rosa fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Danny-me</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <!-- <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#"> Home </a>
+                        </li>
+
+                        <!-- <li class="nav-item">
+                            <a class="nav-link text-dark" href="#"> Anime List </a>
+                        </li> -->
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#"> # </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Carrusel de imagenes -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/assets/jjk2.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/assets/haikyuu.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/assets/yamada.jpe" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/assets/jigokuraku.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/assets/demon-slayer.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <br>
+    <section class="titulo-principal">
+        <p class="lead"></p>Animes nuevos de la temporada 2023.</p>
+        <div id="titulo-contenido">
+            <p>Llega una nueva temporada de anime cargada de estrenos y continuaciones esperadas.
+                <br>
+                En esta lista les mostraremos algunos animes que no pueden dejar de ver!
+            </p>
+        </div>
+    </section>
+    <!-- aqui empiezan las cards de contenido -->
+    <div class="row row-cols-1 row-cols-md-3 g-4 " data-masonry='{"percentPosition": true }' id="card">
+        <div class="col-4">
+            <div class="card mt-4 h-100 text-center">
+                <img src="/assets/myhappy.jpg" class="card-img-top" alt="MyHappyMarriage">
+                <div class="card-body">
+                    <h5 class="card-title">Watashi no Shiawase na Kekkon</h5>
+                    <p class="card-text">Nacida en una familia noble, Miyo es casada con Kiyoka, un soldado tan
+                        despiadado que sus prometidas anteriores huyeron. Sin ningún lugar adonde ir, Miyo comienza
+                        lentamente a abrir su corazón a su frío futuro esposo... ¿Podría ser esto amor?
+                    </p>
+                    <a class="btn btn-dark" href="https://youtu.be/N3jSYV8v5Bw" role="button">Trailer</a>
+                    <!-- <div class="embed-responsive embed-responsive-1by1">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/N3jSYV8v5Bw" 
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    </div> -->
+
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card mt-4 h-100 text-center">
+                <img src="/assets/mashle.jpg" class="card-img-top" alt="Mashle">
+                <div class="card-body">
+                    <h5 class="card-title">Mashle</h5>
+                    <p class="card-text">Mash Burnedead es un fugitivo que ha huido de una sociedad donde la magia y
+                        poder son la normal. Es una amenaza genética y necesitan purgarlo. Sin embargo, Mash ha
+                        entrenado su cuerpo a un punto en que cree poder enfrentarse a la magia, con el sueño de
+                        convertirse en el visonario divino. Esto le permitirá ganarse el respeto de la sociedad, a la
+                        vez que le dará propósito para salir de su escondite y unirse a la academia de magia de Easton.
+                    </p>
+                    <a class="btn btn-dark" href="https://youtu.be/OXQvk5-KVTw"
+                        role="button">Trailer</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card mt-4 h-100 text-center">
+                <img src="assets/jujutsu-kaisen-segunda-temporada.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Jujutsu Kaisen Segunda Temporada</h5>
+                    <p class="card-text">Seguimos a Yuji Itadori, un estudiante con habilidades físicas excepcionales
+                        que se une a la escuela de magia para combatir maldiciones. Junto a Megumi Fushiguro y Nobara
+                        Kugisaki, se enfrentan a diversas amenazas sobrenaturales. Yuji debe controlar el poder de
+                        Ryomen Sukuna, un demonio poderoso que se encuentra dentro de su cuerpo. Con la guía de su
+                        instructor, Satoru Gojo, luchan contra enemigos poderosos mientras descubren más sobre el mundo
+                        de las maldiciones.
+                        En la segunda temporada se cubrirá el arco que presenta la relación de Satoru Gojo con Suguru
+                        Geto y su primer encuentro con Toji Fushiguro, el padre de Megumi. Por otra parte, veremos el
+                        tan esperado arco del "incidente de Shibuya".</p>
+                    <a class="btn btn-dark" href="https://youtu.be/aybr_9MzKXI" role="button">Trailer</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card mt-4 h-100 text-center">
+                <img src="/assets/yamada-kun-to-lv999-no-koi-wo-suru.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Yamada-kun to Lv999 no Koi wo Suru</h5>
+                    <p class="card-text">Luego de un desengaño amoroso donde su novio la engaña con otra chica que
+                        conoce dentro de un videojuego, Akane está segura de que todos los gamers son iguales. Sin
+                        embargo, cuando conoce a Yamada, un chico callado, tímido y nada sociable, hay algo en él que la
+                        atrae. Más allá de que su personaje en el juego tiene todas sus habilidades en la puntuación
+                        máxima y la puede proteger, Akane quiere conocerlo mucho mejor.</p>
+                    <a class="btn btn-dark" href="https://youtu.be/Mk8gEBzunD8" role="button">Trailer</a>
+                    <!-- <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Mk8gEBzunD8"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe> -->
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card mt-4 h-100 text-center">
+                <img src="/assets/tengoku-daimakyou.jpg" class="card-img-top" alt="TengokuDaimakyou">
+                <div class="card-body">
+                    <h5 class="card-title">Tengoku Daimakyou</h5>
+                    <p class="card-text">La humanidad actual vive dentro de ghettos resguardados por robots, y los niños
+                        aprenden a quererlos como parte de su familia. Los niños están llenos de curiosidad sobre el
+                        mundo exterior, hasta que descubren que más allá de los muros existen seres sobrenaturales que
+                        aislaron a la humanidad. Maru está estudiando lo que queda de Tokio para crear un refugio, pero
+                        según lo que se encuentra, ese santuario está muy lejos de aparecer.</p>
+                    <a class="btn btn-dark" href="https://youtu.be/-pgcwiNPiQE" role="button">Trailer</a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-4">
+            <div class="card mt-4 h-100 text-center">
+                <img src="/assets/tokyo-mew-mew-new.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Tokyo Mew Mew New ♡</h5>
+                    <p class="card-text">Ichigo es una estudiante normal, algo alocada, que no destaca en los estudios.
+                        Su vida cambia drásticamente cuando, tras la visita a un experimento científico, recibe el ADN
+                        de un gato de Iriomote, una especie en extinción. Ichigo se convierte así en la justiciera Mew
+                        Mew, una chica gato de armas tomar que luchará valientemente contra las Bestias Quimera, los
+                        monstruos que acechan la ciudad. Al grito de “Strawberry Bell” no habrá enemigo que se le
+                        resista. Muy pronto conocerá a sus compañeras, Lettuce Midorigawa y Mint Aizawa, cada una con un
+                        ADN de animal distinto.</p>
+                    <a class="btn btn-dark" href="https://youtu.be/kZX-MpTbcts" role="button">Trailer</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card mt-4 h-100 text-center">
+                <img src="/assets/bleach.avif" class="card-img-top" alt="Bleach">
+                <div class="card-body">
+                    <h5 class="card-title">Bleach</h5>
+                    <p class="card-text">Ichigo Kurosaki, un sustituto de Shinigami, lucha contra Hollows en el pueblo
+                        Karakura. Junto a sus aliados Orihime, Sado y Uryuu, se enfrenta a la amenaza de Yhwach, un rey
+                        Quincy. Yhwach planea destruir el mundo humano y la Sociedad de Almas. Con una invasión en dos
+                        frentes, Ichigo y sus amigos se unen a antiguos aliados y enemigos para detener a Yhwach y
+                        salvar el mundo. Esta es la secuela de la primera continuación de la serie clásica.</p>
+                    <a class="btn btn-dark" href="https://youtu.be/78WIYzX_m98" role="button">Trailer</a>
+
+                    <!-- <iframe class="embed-responsive-item" src="#"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe> -->
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card mt-4 h-100 text-center">
+                <img src="/assets/rurouni-kenshin-meiji-kenkaku-romantan.jpg" class="card-img-top" alt="Rurouni Kenshin">
+                <div class="card-body">
+                    <h5 class="card-title">Rurouni Kenshin: Meiji Kenkaku Romantan (2023)</h5>
+                    <p class="card-text">Esta historia volverá a adaptar desde el principio el manga. Himura Kenshin, un vagabundo con un pasado oscuro, llega a Tokio durante la era Meiji. Allí se hace amigo de una maestra de Kendo, un exladrón, un luchador y un médico, cada uno con sus propios secretos. Juntos, combaten a los enemigos que surgen del pasado oscuro de Kenshin, del cual no puede escapar.</p>
+                    <a class="btn btn-dark" href="#" role="button">Trailer</a>
+                    <!-- <iframe class="embed-responsive-item" src="#"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe> -->
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card mt-4 h-100 text-center">
+                <img src="/assets/bungo.jpe" class="card-img-top" alt="Bungou Stray Dogs">
+                <div class="card-body">
+                    <h5 class="card-title">Bungou Stray Dogs 5ta Temporada</h5>
+                    <p class="card-text">Habiendo sido expulsado del orfanato y estando a punto de morir de hambre, Atsushi Nakajima conoce a unos hombres. Ambos son miembros de la Agencia Armada de Detectives que se dice que puede resolver cualquier incidente, incluso aquellos que la policía y el ejército no se atreven a investigar. Atsushi acaba acompañándolos en una misión. En la ciudad de Yokohama hay personas que ostentan el nombre de grandes maestros literarios y que poseen poderes inusuales vinculados a su nombre. Este es el inicio de la batalla entre los misteriosos poderes de la Agencia Armada de Detectives y la Port Mafia.</p>
+                    <a class="btn btn-dark" href="https://youtu.be/H-CcrNN3xG4" role="button">Trailer</a>
+                    <!-- <iframe class="embed-responsive-item" src="#"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe> -->
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- aqui termina el div de las cards -->
+    <br>
+    <br>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="d-flex justify-content-evenly">
+                    <h3>&#9829; Ana Daniela Mendez Tostado &#9829;</h3>
+                    <p>Correo electrónico: anamendeztostado@gmail.com</p>
+                </div>
+                <div class="d-flex justify-content-end">
+                    <p>&#169; 2023 JA Mujer Digital.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!-- Masonry  -->
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+        integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
+        async></script>
+</body>
+
+</html>
